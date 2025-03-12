@@ -1,0 +1,25 @@
+$padding-block: (sm, md, lg, xl, xxl);
+@each $pd-bl in $padding-block {
+  .pdbl-#{$pd-bl} {
+    @include pdbl-($pd-bl);
+  }
+}
+$padding-inline: (sm, md, lg, xl, xxl);
+@each $pd-in in $padding-inline {
+  .pdin-#{$pd-in} {
+    @include pdin-($pd-in);
+  }
+
+  $margin-block: (sm, md, lg, xl, xxl);
+  @each $m-bl in $padding-block {
+    .mbl-#{$m-bl} {
+      @include mbl-($m-bl);
+    }
+  }
+  $margin-inline: (sm, md, lg, xl, xxl);
+  @each $m-min in $padding-block {
+    .min-#{$m-min} {
+      @include min-($m-min);
+    }
+  }
+}

@@ -131,4 +131,17 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.fonts {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  border: solid 0.5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 6px;
 }/*# sourceMappingURL=app.css.map */
